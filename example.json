@@ -1,0 +1,192 @@
+{
+  "Energy Drink": {
+    "type": "CONSUMABLE",
+    "ingameSprite": "spr_itemEnergyDrink_ingame",
+    "largeSprite": "spr_itemEnergyDrink_big",
+    "nOwned": 0,
+    "merchantStock": {
+      "Hassan": 5
+    },
+    "description": [
+      "+1 MS"
+    ],
+    "loreDescription": "Label reads: '0% Sugar, 100% Beast.'",
+    "effects": [
+      {
+        "type": "BUFF",
+        "value": 1,
+        "affectedAttr": "walkSpeed",
+        "duration": 10
+      }
+    ],
+    "sellValue": 2,
+    "newItem": true
+  },
+  "Some Cheese": {
+    "type": "CONSUMABLE",
+    "ingameSprite": "spr_itemSomeCheese_ingame",
+    "largeSprite": "spr_itemSomeCheese_big",
+    "nOwned": 1,
+    "merchantStock": {
+      "Hassan": 0
+    },
+    "description": [
+      "+4 HP"
+    ],
+    "loreDescription": "Just because a mouse or a rat is carrying cheese, does not mean ALL rodents like cheese. To make such a claim is prejudice.",
+    "effects": [
+      {
+        "type": "GAIN",
+        "value": 4,
+        "affectedAttr": "hp"
+      }
+    ],
+    "sellValue": 2,
+    "newItem": true
+  },
+  "Tren Vial": {
+    "type": "CONSUMABLE",
+    "ingameSprite": "spr_itemTrenVial_ingame",
+    "largeSprite": "spr_itemTrenVial_big",
+    "nOwned": 3,
+    "merchantStock": {
+      "Hassan": 0
+    },
+    "description": [
+      "+2 ATK",
+      "-1 HP"
+    ],
+    "loreDescription": "Just carrying this for a friend, I'm 100% natty bro.",
+    "effects": [
+      {
+        "type": "GAIN",
+        "value": 2,
+        "affectedAttr": "attack"
+      },
+      {
+        "type": "GAIN",
+        "value": -1,
+        "affectedAttr": "maxHp"
+      }
+    ],
+    "sellValue": 700,
+    "newItem": true
+  },
+  "Gold Ring": {
+    "type": "QUEST",
+    "ingameSprite": "spr_itemGoldRing_ingame",
+    "largeSprite": "spr_itemGoldRing_big",
+    "nOwned": 0,
+    "merchantStock": {
+      "Hassan": 1
+    },
+    "description": [
+      "+2 DEF"
+    ],
+    "loreDescription": "On the inside is engraved: 'My heart is yours'.",
+    "sellValue": 250,
+    "newItem": true
+  },
+  "Rare Baseball Card": {
+    "type": "EQUIPMENT",
+    "ingameSprite": "spr_itemRareBaseballCard_ingame",
+    "largeSprite": "spr_itemRareBaseballCard_big",
+    "nOwned": 0,
+    "merchantStock": {
+      "Hassan": 1
+    },
+    "description": [
+      "+10 MAX HP"
+    ],
+    "loreDescription": "Why does a baseball card even affect stats? Must be a rare card.",
+    "effects": [
+      {
+        "type": "BUFF",
+        "value": 10,
+        "affectedAttr": "maxHp"
+      }
+    ],
+    "sellValue": 2500,
+    "newItem": true
+  },
+  "Sunflower": {
+    "type": "EQUIPMENT",
+    "ingameSprite": "spr_itemSunflower_ingame",
+    "largeSprite": "spr_itemSunflower_big",
+    "nOwned": 1,
+    "merchantStock": {
+      "Hassan": 0
+    },
+    "description": [
+      "+2 MAX HP",
+      "+1 DEF"
+    ],
+    "loreDescription": "Provides a little hand-held sunshine.",
+    "effects": [
+      {
+        "type": "BUFF",
+        "value": 2,
+        "affectedAttr": "maxHp"
+      },
+      {
+        "type": "BUFF",
+        "value": 1,
+        "affectedAttr": "defense"
+      }
+    ],
+    "sellValue": 5,
+    "newItem": true
+  },
+  "Red Balloon": {
+    "type": "EQUIPMENT",
+    "ingameSprite": "spr_itemRedBalloon_ingame",
+    "largeSprite": "spr_itemRedBalloon_big",
+    "nOwned": 2,
+    "merchantStock": {
+      "Hassan": 0
+    },
+    "description": [
+      "+2 ATK"
+    ],
+    "loreDescription": "We love Derry!",
+    "effects": [
+      {
+        "type": "BUFF",
+        "value": 2,
+        "affectedAttr": "attack"
+      }
+    ],
+    "sellValue": 10,
+    "newItem": true
+  },
+  "Bottled Fart": {
+    "type": "QUEST",
+    "ingameSprite": "spr_itemBottledFart_ingame",
+    "largeSprite": "spr_itemBottledFart_big",
+    "nOwned": 0,
+    "merchantStock": {
+      "Hassan": 0
+    },
+    "description": [
+      "Brap."
+    ],
+    "loreDescription": "A bottled fart for future sniffing. Braappp!",
+    "sellValue": 100,
+    "newItem": true
+  },
+  "Sobriety Coin": {
+    "type": "QUEST",
+    "ingameSprite": "spr_itemSobrietyCoin_ingame",
+    "largeSprite": "spr_itemSobrietyCoin_big",
+    "nOwned": 1,
+    "merchantStock": {
+      "Hassan": 0
+    },
+    "description": [
+      "A coin."
+    ],
+    "loreDescription": "Something to celebrate sobriety of 5 days.",
+    "sellValue": 20,
+    "newItem": true
+  }
+}
